@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Рекомендации товаров для пользователя </title>
+</head>
+<body>
+        <h1> Введите ID пользователя </h1>
+            <form action="" method="post" novalidate>
+                <p>
+                    {{ form.uid.label }}<br>
+                    {{ form.uid(size=32) }}
+                </p>
+                <p> {{ form.submit() }} </p>
+            </form>
+</body>
+</html>

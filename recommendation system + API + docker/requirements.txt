@@ -1,0 +1,4 @@
+numpy
+surprise
+flask
+flask_wtf
